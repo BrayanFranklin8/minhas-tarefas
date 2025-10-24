@@ -1,10 +1,11 @@
+import BarraLateral from '../../containers/BarraLateral'
+import Formulario from '../../containers/Formulario'
+
 const Cadastro = () => (
-  <form>
-    <input type="text" placeholder="Titulo" />
-    <textarea placeholder="Descricao da tarefa" />
-    <input type=" radio" id="urgente" />
-    <label htmlFor="urgente">Urgente</label>
-  </form>
+  <>
+    <BarraLateral />
+    <Formulario />
+  </>
 )
 
 export default Cadastro
